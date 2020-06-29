@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <title>Macedonia</title>
+  </head>
+  <body>
+    <h1>Macedonia slides</h1>
+    <div id="sidebar" onclick="toggleMenu()">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="things.html">Things to do</a></li>
+      </ul>
+    </div>
+    <div class="buttons">
+      <button id="btnOne">Image 1 description</button>
+      <button id="btnTwo">Image 2 description</button>
+      <button id="btnThree">Image 3 description</button>
+      <button id="btnFour">Image 4 description</button>
+      <button id="btnFive">Image 5 description</button>
+      <button id="btnSix">Image 6 description</button>
+      <button id="btnSeven">Image 7 description</button>
+    </div>
+    <div class="wrapper">
+      <div class="prev-btn"><i class="fas fa-chevron-left"></i></div>
+      <div class="slides-container">
+        <div class="slide-image">
+          <p>image 1</p>
+          <img src="images/picture1.jpg" alt="" />
+        </div>
+        <div class="slide-image">
+          <p>image 2</p>
+          <img src="images/picture2.jpg" alt="" />
+        </div>
+        <div class="slide-image">
+          <p>image 3</p>
+          <img src="images/picture3.jpg" alt="" />
+        </div>
+        <div class="slide-image">
+          <p>image 4</p>
+          <img src="images/picture4.jpg" alt="" />
+        </div>
+        <div class="slide-image">
+          <p>image 5</p>
+          <img src="images/picture5.jpg" alt="" />
+        </div>
+        <div class="slide-image">
+          <p>image 6</p>
+          <img src="images/picture6.jpg" alt="" />
+        </div>
+        <div class="slide-image">
+          <p>image 7</p>
+          <img src="images/picture7.jpg" alt="" />
+        </div>
+      </div>
+      <div class="next-btn"><i class="fas fa-chevron-right"></i></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
